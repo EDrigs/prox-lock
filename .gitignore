@@ -1,0 +1,30 @@
+# Secrets - NEVER commit these
+.env
+.env.local
+SmartDoorLock/secrets.h
+
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Arduino build artifacts
+*.o
+*.a
+*.elf
+*.hex
+build/
+
+# IDE / tool config files
+.vscode/
+.idea/
+.theia/
+.claude/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
